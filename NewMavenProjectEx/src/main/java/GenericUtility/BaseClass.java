@@ -1,5 +1,6 @@
 package GenericUtility;
 import java.io.IOException;
+
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -40,7 +41,7 @@ public class BaseClass {
  		System.out.println("===============Launch the browser======");
  		
  		//String BROWSER=fu.getDataFromPrpperties("browser");
- 		String BROWSER=System.getProperty("browser");
+ 		String BROWSER=fu.getDataFromPrpperties("browser");
  		System.out.println(BROWSER);
  		if(BROWSER.equals("chrome")) {
  			driver = new ChromeDriver();
