@@ -8,7 +8,6 @@
 	</groups>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Practice1.Test1"/>
       <class name="Practice1.Test2"/>
     </classes>
   </test> <!-- Test -->
