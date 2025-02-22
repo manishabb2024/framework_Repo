@@ -2,62 +2,62 @@
 <testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-21T23:08:42 GMT-08:00" name="Suite" finished-at="2025-02-21T23:08:56 GMT-08:00" duration-ms="14725">
+  <suite started-at="2025-02-22T01:43:57 GMT-08:00" name="Suite" finished-at="2025-02-22T01:44:10 GMT-08:00" duration-ms="13032">
     <groups>
-      <group name="smoke">
-        <method signature="Test1.ex1()[pri:0, instance:Practice1.Test1@1189dd52]" name="ex1" class="Practice1.Test1"/>
-        <method signature="Test2.ex3()[pri:0, instance:Practice1.Test2@436813f3]" name="ex3" class="Practice1.Test2"/>
-      </group> <!-- smoke -->
+      <group name="Regression">
+        <method signature="Test1.ex2()[pri:0, instance:Practice1.Test1@1189dd52]" name="ex2" class="Practice1.Test1"/>
+        <method signature="Test2.ex4()[pri:0, instance:Practice1.Test2@436813f3]" name="ex4" class="Practice1.Test2"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-02-21T23:08:42 GMT-08:00" name="Test" finished-at="2025-02-21T23:08:56 GMT-08:00" duration-ms="14725">
+    <test started-at="2025-02-22T01:43:57 GMT-08:00" name="Test" finished-at="2025-02-22T01:44:10 GMT-08:00" duration-ms="13032">
       <class name="Practice1.Test2">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Practice1.Test2@436813f3]" started-at="2025-02-21T23:08:48 GMT-08:00" name="beforeclass" finished-at="2025-02-21T23:08:52 GMT-08:00" duration-ms="3679" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Practice1.Test2@436813f3]" started-at="2025-02-22T01:44:04 GMT-08:00" name="beforeclass" finished-at="2025-02-22T01:44:06 GMT-08:00" duration-ms="2644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Practice1.Test2@436813f3]" started-at="2025-02-21T23:08:52 GMT-08:00" name="beforeMethod" finished-at="2025-02-21T23:08:55 GMT-08:00" duration-ms="2625" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Practice1.Test2@436813f3]" started-at="2025-02-22T01:44:06 GMT-08:00" name="beforeMethod" finished-at="2025-02-22T01:44:09 GMT-08:00" duration-ms="2273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="ex3()[pri:0, instance:Practice1.Test2@436813f3]" started-at="2025-02-21T23:08:55 GMT-08:00" name="ex3" finished-at="2025-02-21T23:08:55 GMT-08:00" duration-ms="3" status="PASS">
+        <test-method signature="ex4()[pri:0, instance:Practice1.Test2@436813f3]" started-at="2025-02-22T01:44:09 GMT-08:00" name="ex4" finished-at="2025-02-22T01:44:09 GMT-08:00" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ex3 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Practice1.Test2@436813f3]" started-at="2025-02-21T23:08:55 GMT-08:00" name="afterMethod" finished-at="2025-02-21T23:08:56 GMT-08:00" duration-ms="1052" status="PASS">
+        </test-method> <!-- ex4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Practice1.Test2@436813f3]" started-at="2025-02-22T01:44:09 GMT-08:00" name="afterMethod" finished-at="2025-02-22T01:44:10 GMT-08:00" duration-ms="1056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="Afterclass()[pri:0, instance:Practice1.Test2@436813f3]" started-at="2025-02-21T23:08:56 GMT-08:00" name="Afterclass" finished-at="2025-02-21T23:08:56 GMT-08:00" duration-ms="520" status="PASS">
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:Practice1.Test2@436813f3]" started-at="2025-02-22T01:44:10 GMT-08:00" name="Afterclass" finished-at="2025-02-22T01:44:10 GMT-08:00" duration-ms="428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Afterclass -->
       </class> <!-- Practice1.Test2 -->
       <class name="Practice1.Test1">
-        <test-method is-config="true" signature="configBasesuit()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-21T23:08:41 GMT-08:00" name="configBasesuit" finished-at="2025-02-21T23:08:42 GMT-08:00" duration-ms="423" status="PASS">
+        <test-method is-config="true" signature="configBasesuit()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-22T01:43:57 GMT-08:00" name="configBasesuit" finished-at="2025-02-22T01:43:57 GMT-08:00" duration-ms="487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBasesuit -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-21T23:08:42 GMT-08:00" name="beforeclass" finished-at="2025-02-21T23:08:45 GMT-08:00" duration-ms="3395" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-22T01:43:57 GMT-08:00" name="beforeclass" finished-at="2025-02-22T01:44:00 GMT-08:00" duration-ms="3133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-21T23:08:45 GMT-08:00" name="beforeMethod" finished-at="2025-02-21T23:08:47 GMT-08:00" duration-ms="2248" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-22T01:44:00 GMT-08:00" name="beforeMethod" finished-at="2025-02-22T01:44:02 GMT-08:00" duration-ms="2043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="ex1()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-21T23:08:47 GMT-08:00" name="ex1" finished-at="2025-02-21T23:08:47 GMT-08:00" duration-ms="12" status="PASS">
+        <test-method signature="ex2()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-22T01:44:02 GMT-08:00" name="ex2" finished-at="2025-02-22T01:44:02 GMT-08:00" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ex1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-21T23:08:47 GMT-08:00" name="afterMethod" finished-at="2025-02-21T23:08:48 GMT-08:00" duration-ms="866" status="PASS">
+        </test-method> <!-- ex2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-22T01:44:02 GMT-08:00" name="afterMethod" finished-at="2025-02-22T01:44:03 GMT-08:00" duration-ms="898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="Afterclass()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-21T23:08:48 GMT-08:00" name="Afterclass" finished-at="2025-02-21T23:08:48 GMT-08:00" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-22T01:44:03 GMT-08:00" name="Afterclass" finished-at="2025-02-22T01:44:04 GMT-08:00" duration-ms="514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Afterclass -->
-        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-21T23:08:56 GMT-08:00" name="Aftersuite" finished-at="2025-02-21T23:08:56 GMT-08:00" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:Practice1.Test1@1189dd52]" started-at="2025-02-22T01:44:10 GMT-08:00" name="Aftersuite" finished-at="2025-02-22T01:44:10 GMT-08:00" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftersuite -->

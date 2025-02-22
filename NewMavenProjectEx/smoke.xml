@@ -11,6 +11,5 @@
 			<class name="Practice1.Test1" />
 			<class name="Practice1.Test2" />
 		</classes>
-	</test> <!--	Test -->
-</suite> <!--
-Suite -->
+	</test> 
+</suite> 

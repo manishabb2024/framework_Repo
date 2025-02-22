@@ -10,7 +10,7 @@ public class Test2 extends BaseClass {
 	{
 		System.out.println("hello test3");
 	}
-	@Test
+	@Test(groups="Regression")
 	public void ex4()
 	{
 		System.out.println("hello test4");

@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\hp\git\repository2\NewMavenProjectEx\smoke.xml</span>
+                    <span>C:\Users\hp\git\repository2\NewMavenProjectEx\Regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Practice1.Test1" class="method navigator-link" hash-for-method="ex1">ex1</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Practice1.Test1" class="method navigator-link" hash-for-method="ex2">ex2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Practice1.Test2" class="method navigator-link" hash-for-method="ex3">ex3</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Practice1.Test2" class="method navigator-link" hash-for-method="ex4">ex4</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -132,9 +132,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ex3">
-                  </a> <!-- ex3 -->
-                  <span class="method-name">ex3</span>
+                  <a name="ex4">
+                  </a> <!-- ex4 -->
+                  <span class="method-name">ex4</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,9 +147,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ex1">
-                  </a> <!-- ex1 -->
-                  <span class="method-name">ex1</span>
+                  <a name="ex2">
+                  </a> <!-- ex2 -->
+                  <span class="method-name">ex2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -157,7 +157,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\hp\git\repository2\NewMavenProjectEx\smoke.xml</span>
+            <span class="header-content">C:\Users\hp\git\repository2\NewMavenProjectEx\Regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -166,12 +166,12 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;groups&gt;
     &lt;run&gt;
-      &lt;include name=&quot;smoke&quot;/&gt;
+      &lt;include name=&quot;Regression&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
   &lt;groups&gt;
     &lt;run&gt;
-      &lt;include name=&quot;smoke&quot;/&gt;
+      &lt;include name=&quot;Regression&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
@@ -202,14 +202,14 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">smoke</span>
+              <span class="test-group-name">Regression</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">ex1</span>
+                <span class="method-in-group-name">ex2</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">ex3</span>
+                <span class="method-in-group-name">ex4</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -231,18 +231,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ex1')
+data.setCell(0, 1, 'ex2')
 data.setCell(0, 2, 'Practice1.Test1')
-data.setCell(0, 3, 12);
+data.setCell(0, 3, 8);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ex3')
+data.setCell(1, 1, 'ex4')
 data.setCell(1, 2, 'Practice1.Test2')
-data.setCell(1, 3, 3);
+data.setCell(1, 3, 2);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 ms</span>
+              <span class="suite-total-time">Total running time: 10 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -265,16 +265,16 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">configBasesuit</span>
                 <br/>
-                <span class="ignored-method-name">ex4</span>
-                <br/>
                 <span class="ignored-method-name">Aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">ex3</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">Practice1.Test1</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">ex2</span>
+                <span class="ignored-method-name">ex1</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -293,53 +293,53 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">437 ms</span>
+                <span class="method-start">501 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">3852 ms</span>
+                <span class="method-start">3644 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">ex1</span>
-                <span class="method-start">6101 ms</span>
+                <span class="method-name">ex2</span>
+                <span class="method-start">5688 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">6116 ms</span>
+                <span class="method-start">5700 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">Afterclass</span>
-                <span class="method-start">6984 ms</span>
+                <span class="method-start">6599 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Practice1.Test2</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">7259 ms</span>
+                <span class="method-start">7115 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">10938 ms</span>
+                <span class="method-start">9759 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">ex3</span>
-                <span class="method-start">13564 ms</span>
+                <span class="method-name">ex4</span>
+                <span class="method-start">12032 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">13574 ms</span>
+                <span class="method-start">12036 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">Afterclass</span>
-                <span class="method-start">14629 ms</span>
+                <span class="method-start">13093 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Practice1.Test1</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">Aftersuite</span>
-                <span class="method-start">15253 ms</span>
+                <span class="method-start">13651 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

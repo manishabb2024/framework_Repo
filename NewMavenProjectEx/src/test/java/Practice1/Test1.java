@@ -11,7 +11,7 @@ public void ex1()
 {
 	System.out.println("hello test1");
 }
-@Test
+@Test(groups="Regression")
 public void ex2()
 {
 	System.out.println("hello test2");
